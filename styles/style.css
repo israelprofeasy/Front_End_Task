@@ -218,6 +218,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 }
 
 .second-viewheight-container{
@@ -247,7 +248,7 @@ p{
 }
 .gallery-images img{
     border-radius: 1rem;
-    padding: 2%;
+    padding: 8%;
     height: 100%;
     width: 100%;
 }
@@ -283,10 +284,11 @@ p{
     width: 100%;
     display: flex;
     box-sizing: border-box;
-    margin-top: 5%;
-    background-image: url("/assets/gallery_images/Bitmap-1.png");
+    margin-top: -4%;
+    background-image: url("assets/gallery_images/Bitmap-1.png");
     background-repeat: no-repeat;
     background-size: cover;
+        
     
 
 }
@@ -397,7 +399,9 @@ p{
         font-size: 1.5rem;
     }
     
-    
+    .footer-container{
+        margin-top: -3%;
+    }
     
 }
 
@@ -487,7 +491,9 @@ p{
     }
     
 }
-
+.footer-container{
+    margin-top: -2%;
+}
 
 /*------------1440px desktop--------*/
 @media screen and (min-width: 1439px) {
@@ -555,6 +561,9 @@ p{
     .footer-button{
         align-self: center;
         justify-self: start;
+    }
+    .footer-container{
+        margin-top: -1%;
     }
 
     
